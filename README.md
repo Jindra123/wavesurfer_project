@@ -1,4 +1,4 @@
-# websurfer_project
+# wavesurfer_project
 A JavaScript project
 
 #How to start ptoject
