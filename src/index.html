@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A JavaScript project</title>
+  <link rel="stylesheet" href="style.scss">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="container">
+    <h1>Play your song!</h1>
+    <input type="file" accept="audio/*" required id="audio-file-input">
+    <div id="waveform">
+      <div id="time">0:00</div>
+      <div id="duration">0:00</div>
+      <div id="hover"></div>
+    </div>
+    <label>
+      Zoom: <input id="zoom-in-out" type="range" min="10" max="20" value="15" />
+    </label>
+    <button id="play-pause-button">Play/Pause</button>
+  </div>
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
