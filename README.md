@@ -2,5 +2,7 @@
 A JavaScript project
 
 #How to start ptoject
+
 npm i 
+
 npm start
